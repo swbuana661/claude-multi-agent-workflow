@@ -1,0 +1,13 @@
+{
+  "name": "code-quality-marketplace",
+  "owner": {
+    "name": "Indira Buana"
+  },
+  "plugins": [
+    {
+      "name": "code-quality-workflow",
+      "source": "./",
+      "description": "A multi-agent code quality plugin that runs parallel correctness and maintainability reviews, consolidates and deduplicates findings, applies focused fixes through a scoped fixer agent, provides reusable code-quality guidance, and triggers post-edit validation reminders."
+    }
+  ]
+}
